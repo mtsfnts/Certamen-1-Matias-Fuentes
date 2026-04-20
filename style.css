@@ -84,9 +84,7 @@
 }
 
 
-
-
-/* parte el css de SOBRE MÍ */
+/* comienzo apartado sobre mi */
 .sobre-mi {
     padding: 80px 10%; 
     background-color: #d9dce1; 
@@ -167,4 +165,107 @@
 .datos-personales strong {
     color: #041f55;
     margin-right: 5px;
+}
+
+
+/* Comienzo de apartado habilidades */
+.habilidades {
+    padding: 80px 10%;
+    background-color:  #d9dce1; 
+    color: #333;
+}
+
+.tabla-contenedor {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden; 
+    margin-bottom: 40px;
+}
+
+.tabla-habilidades {
+    width: 100%;
+    border-collapse: collapse; 
+    text-align: left;
+}
+
+.tabla-habilidades th {
+    background-color: #4d7ee0;
+    color: rgb(1, 1, 1);
+    padding: 18px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.tabla-habilidades td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #bcc6cf;
+    color: #4a5568;
+    vertical-align: middle;
+}
+
+.tabla-habilidades tr:last-child td {
+    border-bottom: none;
+}
+
+.barra-fondo {
+    width: 100%;
+    background-color: #dde3ea;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.barra-progreso {
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.barra-progreso.azul { background-color: #0ee251; }
+.barra-progreso.verde { background-color: #d50cb0; }
+.barra-progreso.naranja { background-color: #f0f404; }
+.barra-progreso.morado { background-color: #f70303; }
+.barra-progreso.rojo { background-color: #02ddf6; }
+
+
+.competencias-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.tarjeta-competencia {
+    flex: 1; 
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaebec;
+}
+
+.tarjeta-competencia h3 {
+    color: #1a2b4c;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+
+.lista-competencias {
+    padding-left: 20px;
+    color: #4a5568;
+    line-height: 2;
+}
+
+.lista-competencias li {
+    margin-bottom: 10px;
+}
+
+.lista-ruta {
+    padding-left: 20px;
+    color: #4a5568;
+    line-height: 2;
+}
+
+.lista-ruta li {
+    margin-bottom: 10px;
 }
