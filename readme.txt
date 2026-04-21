@@ -1,5 +1,4 @@
-""
+Soy matias Fuentes
 
-1- Videos multimedia tanto en tiktok y youtube
-2- Ayuda de geminis pro para modificacion de la pagina visualmente
- 
+Estudiante analista programador, cursando tercer semestre
+En este repositorio veras mi primera pagina web de la asignatura front-end
