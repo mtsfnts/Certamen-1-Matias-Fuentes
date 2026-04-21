@@ -269,3 +269,91 @@
 .lista-ruta li {
     margin-bottom: 10px;
 }
+
+
+.proyectos {
+    padding: 80px 10%;
+    background-color: #f8fbff; 
+    color: #333;
+}
+
+
+.grid-proyectos {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; 
+}
+
+
+.tarjeta-proyecto {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eaebec;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.img-proyecto {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem; 
+}
+
+
+.grad-morado  { background: linear-gradient(135deg, #7F7FD5, #86A8E7, #91EAE4); }
+.grad-rosa    { background: linear-gradient(135deg, #ff9a9e, #fecfef); }
+.grad-celeste { background: linear-gradient(135deg, #4facfe, #00f2fe); }
+.grad-verde   { background: linear-gradient(135deg, #43e97b, #38f9d7); }
+.grad-naranja { background: linear-gradient(135deg, #f6d365, #fda085); }
+.grad-lila    { background: linear-gradient(135deg, #a18cd1, #fbc2eb); }
+
+
+.info-proyecto {
+    padding: 25px;
+    display: block; 
+}
+
+.etiqueta-proyecto {
+    display: block;
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-proyecto h3 {
+    color: #1a2b4c;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.info-proyecto p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.enlace-proyecto {
+    text-decoration: none; 
+    color: #2c5282; 
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.enlace-proyecto:hover {
+    color: #e67e22; 
+}
