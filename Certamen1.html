@@ -219,4 +219,86 @@
 
         </div>
     </section>  
+        <section class="contacto">
+        
+        <div class="titulo-seccion">
+            <h2>Contacto</h2>
+            <div class="linea-naranja"></div>
+            <p>Envíame un mensaje</p>
+        </div>
+
+        <div class="contenido-contacto">
+            
+            <form class="formulario" action="#" method="POST">
+                <div class="fila-form">
+                    <div class="grupo-form">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="grupo-form">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                </div>
+
+                <div class="grupo-form">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="" disabled selected>Selecciona un asunto</option>
+                        <option value="freelance">Proyecto Freelance</option>
+                        <option value="trabajo">Oferta Laboral</option>
+                        <option value="consulta">Consulta General</option>
+                    </select>
+                </div>
+
+                <div class="grupo-form">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+
+            <aside class="tarjeta-info-contacto">
+                <h3>Información de contacto</h3>
+                <ul class="lista-contacto">
+                    <li>
+                        <span class="icono-contacto">✉️</span>
+                        <p>matias@email.com</p>
+                    </li>
+                    <li>
+                        <span class="icono-contacto">📍</span>
+                        <p>Concepción, Chile</p>
+                    </li>
+                    <li>
+                        <span class="icono-contacto">📱</span>
+                        <p>+56 9 1234 5678</p>
+                    </li>
+                    <li>
+                        <span class="icono-contacto">🌐</span>
+                        <p>github.com/matiasfuentes</p>
+                    </li>
+                </ul>
+            </aside>
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contenido">
+            <div class="footer-logo">
+                <span class="logo-naranja">MFF</span>
+                <strong>Matías Fuentes Fuentes</strong>
+            </div>
+            <div class="redes-sociales">
+                <a href="#">GH</a>
+                <a href="#">LI</a>
+                <a href="#">TW</a>
+                <a href="#">IG</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Matías Fuentes Fuentes. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
