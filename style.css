@@ -4,8 +4,11 @@
     box-sizing: border-box;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 
-/* --- SECCIÓN SUPERIOR AZUL --- */
+/*presentacion*/
 .header-azul {
     background: linear-gradient(135deg, #93aee0 0%, #0c52c3 100%);
     color: rgb(9, 9, 9);
@@ -22,16 +25,16 @@
 
 .logo-container {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1.2rem;
+    align-items:center;
+    gap: 25px;
+    font-size: 1.7rem;
 }
 /*Logo MF*/
 .logo {
-    background: #0ddaf1;
+    background: #e2e5ea;
     padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
+    border-radius: 10px;
+    font-weight:bold;
 }
 
 .nav-links {
@@ -44,7 +47,9 @@
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .hero {
@@ -54,7 +59,7 @@
 }
 
 .hero-texto h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin-bottom: 10px;
 }
 /*Texto matias fuentes fuentes*/
@@ -87,7 +92,7 @@
 /* comienzo apartado sobre mi */
 .sobre-mi {
     padding: 80px 10%; 
-    background-color: #d9dce1; 
+    background-color: #e2e5ea; /*Fondo*/
     color: #333;
 }
 
@@ -171,7 +176,7 @@
 /* Comienzo de apartado habilidades */
 .habilidades {
     padding: 80px 10%;
-    background-color:  #d9dce1; 
+    background-color:  #e2e5ea; 
     color: #333;
 }
 
@@ -270,10 +275,10 @@
     margin-bottom: 10px;
 }
 
-
+/*Comienzo apartado proyectos*/
 .proyectos {
     padding: 80px 10%;
-    background-color: #f8fbff; 
+    background-color: #e2e5ea; 
     color: #333;
 }
 
@@ -358,10 +363,10 @@
     color: #e67e22; 
 }
 
-/* --- SECCIÓN CONTACTO --- */
+/*Comienzo apartado contacto*/
 .contacto {
     padding: 80px 10%;
-    background-color: #ffffff;
+    background-color: #e2e5ea;
     color: #333;
 }
 
@@ -372,9 +377,9 @@
     align-items: flex-start;
 }
 
-/* --- FORMULARIO --- */
+
 .formulario {
-    flex: 1; /* Ocupa el espacio disponible */
+    flex: 1; 
 }
 
 .fila-form {
@@ -396,7 +401,7 @@
     margin-bottom: 8px;
 }
 
-/* Estilos compartidos para inputs, select y textarea */
+
 .formulario input,
 .formulario select,
 .formulario textarea {
@@ -405,13 +410,13 @@
     border: 1px solid #d1d5db;
     border-radius: 6px;
     font-size: 1rem;
-    font-family: inherit; /* Hereda la fuente de tu página */
+    font-family: inherit; 
     background-color: #fcfcfc;
     color: #333;
     transition: border-color 0.3s ease;
 }
 
-/* Efecto al hacer clic en un input */
+
 .formulario input:focus,
 .formulario select:focus,
 .formulario textarea:focus {
@@ -420,7 +425,7 @@
     background-color: #fff;
 }
 
-/* Botón de enviar */
+
 .btn-enviar {
     width: 100%;
     padding: 15px;
@@ -438,7 +443,7 @@
     background-color: #2c5282;
 }
 
-/* --- TARJETA DE INFO DERECHA --- */
+
 .tarjeta-info-contacto {
     background-color: #f8fbff;
     padding: 35px;
@@ -476,9 +481,9 @@
     font-size: 1.2rem;
 }
 
-/* --- FOOTER --- */
+/*Comienzo footer*/
 .footer {
-    background-color: #1a2b4c; /* Azul oscuro */
+    background: linear-gradient(135deg, #93aee0 0%, #0c52c3 100%);
     color: white;
     padding: 40px 10% 20px 10%;
 }
@@ -489,7 +494,7 @@
     align-items: center;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Línea divisoria muy sutil */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
 .footer-logo {
