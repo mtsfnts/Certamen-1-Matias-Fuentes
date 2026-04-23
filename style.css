@@ -542,3 +542,45 @@ html{
     font-size: 0.85rem;
     color: #fefeff;
 }
+
+
+/*Media para tablets*/
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contenido-sobre-mi, 
+    .contenido-contacto {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .datos-personales, 
+    .tarjeta-info-contacto {
+        width: 100%;
+    }
+    .competencias-contenedor {
+        flex-direction: column;
+    }
+}
+
+/*Media para telefono*/
+@media (max-width: 480px) {
+    .header-azul {
+        min-height: auto;
+        padding: 40px 5%;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-texto h1 {
+        font-size: 1.8rem;
+    }
+    .foto-circular {
+        width: 180px;
+        height: 180px;
+    }
+    .titulo-seccion h2 {
+        font-size: 1.8rem;
+    }
